@@ -1,0 +1,16 @@
+graph "Exercise Remove Result"
+{
+	graph [ dpi = 300 ]; 
+	n00 [label="5"][color="orange"];
+	n01 [label="6"][color="orange"];
+	n02 [label="7"];
+	n03 [label="13"][color="orange"];
+	n04 [label="12"];
+	n05 [label="8"];
+
+	n00 -- n01;
+	n00 -- n02;
+	n01 -- n03;
+	n01 -- n04;
+	n02 -- n05;
+}

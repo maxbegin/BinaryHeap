@@ -1,0 +1,14 @@
+graph "Remove Min Step 6"
+{
+	graph [ dpi = 300 ]; 
+	n00 [label="11"];
+	n01 [label="50"];
+	n02 [label="12"];
+	n03 [label="100"];
+	n04 [label="50"];
+
+	n00 -- n01;
+	n00 -- n02;
+	n01 -- n03;
+	n01 -- n04;
+}

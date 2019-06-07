@@ -1,0 +1,18 @@
+graph "Exercise TreeValid04"
+{
+	graph [ dpi = 300 ]; 
+	n00 [label="1"];
+	n01 [label="5"];
+	n02 [label="7"];
+	n03 [label="5"];
+	n04 [label="12"];
+	n05 [label="8"];
+	n06 [label="13"];
+
+	n00 -- n01;
+	n00 -- n02;
+	n01 -- n03;
+	n01 -- n04;
+	n02 -- n05;
+	n02 -- n06;
+}
